@@ -1,0 +1,23 @@
+{
+  "id": "/",
+  "name": "HarasCoin",
+  "short_name": "HarasCoin",
+  "description": "HarasCoin: płatności, portfel i asystent AI JuliaAI, z osobną warstwą Web3.",
+  "lang": "pl",
+  "dir": "ltr",
+  "start_url": "/?utm_source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A0A0D",
+  "theme_color": "#0A0A0D",
+  "categories": ["finance", "business"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Julia AI", "short_name": "Julia AI", "url": "https://juliaai.io/panel?utm_source=harascoin-pwa" }
+  ]
+}

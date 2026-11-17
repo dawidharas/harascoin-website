@@ -1,0 +1,10 @@
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0A0A0D"><title>HarasCoin · brak połączenia</title>
+<style>html,body{height:100%;margin:0;background:#0A0A0D;color:#EDEDF2;font:16px/1.55 "IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+main{min-height:100%;display:grid;place-content:center;gap:14px;text-align:center;padding:24px max(24px,env(safe-area-inset-right)) 24px max(24px,env(safe-area-inset-left))}
+img{width:96px;height:96px;margin:0 auto}h1{margin:0;font:600 24px "Space Grotesk",system-ui,sans-serif}p{margin:0;color:#8D8D9A;max-width:34ch}
+button{margin:8px auto 0;background:#A5443F;color:#0A0A0D;border:0;padding:13px 26px;font:600 16px system-ui,sans-serif}</style></head>
+<body><main><img src="/icon-192.png" alt="HarasCoin"><h1 id="t">Brak połączenia z internetem</h1>
+<p id="d">Sprawdź Wi-Fi lub dane komórkowe i spróbuj ponownie.</p>
+<button id="b" onclick="location.reload()">Spróbuj ponownie</button></main>
+<script>if(!/^pl/i.test(navigator.language||"pl")){t.textContent="No internet connection";d.textContent="Check your Wi-Fi or mobile data and try again.";b.textContent="Try again";document.documentElement.lang="en"}
+addEventListener("online",function(){location.reload()})</script></body></html>
